@@ -38,57 +38,56 @@
             </div>
         </div>
     </main>
-    <section class="special-section">
-        <h1>Specials</h1>
+        <section class="special-section">
         <div class="back">
-            <div class="arr1 arrow" id="arrow1">
+            <div class="arr1 arrow" id="arr1" onclick="buttonUp()">
                 <img src="images/arrow-right.svg" alt="" >
             </div>
             <div class="slider-back">
-                <div class="slider-div">
-                    <div class="food" id="foo" style="background-image: url(images/pexels-photo-6210933.jpeg);">
+                <div class="slider-div" id="slider-div">
+                    <div class="food" style="background-image: url(images/pexels-victoria-emerson-6037881.jpg);">
                         <div class="food-name" >
-                            <p class="name">Lorem Ipsum 1</p>
+                            <p class="name">Lorem Ipsum</p>
                             <div class="add">
                                 <img src="images/plus.svg" alt="add">
                             </div>
                         </div>
                     </div>
-                    <div class="food" id="foo" style="background-image: url(images/pexels-photo-6210933.jpeg);">
+                    <div class="food" style="background-image: url(images/istockphoto-1133151212-170667a.jpg);">
                         <div class="food-name" >
-                            <p class="name">Lorem Ipsum 2</p>
+                            <p class="name">Lorem Ipsum</p>
                             <div class="add">
                                 <img src="images/plus.svg" alt="add">
                             </div>
                         </div>
                     </div>
-                    <div class="food" id="foo" style="background-image: url(images/pexels-photo-6210933.jpeg);">
+                    <div class="food" style="background-image: url(images/pexels-momo-king-5409014.jpg);">
                         <div class="food-name" >
-                            <p class="name">Lorem Ipsum 3</p>
+                            <p class="name">Lorem Ipsum</p>
                             <div class="add">
                                 <img src="images/plus.svg" alt="add">
                             </div>
                         </div>
                     </div>
-                    <div class="food" id="foo" style="background-image: url(images/pexels-photo-6210933.jpeg);">
+                    <div class="food" style="background-image: url(images/pexels-adhitya-rizky-3345727.jpg);">
                         <div class="food-name" >
-                            <p class="name">Lorem Ipsum 4</p>
+                            <p class="name">Lorem Ipsum</p>
                             <div class="add">
                                 <img src="images/plus.svg" alt="add">
                             </div>
                         </div>
                     </div>
-                    <div class="food" id="foo" style="background-image: url(images/pexels-photo-6210933.jpeg);">
+                    <div class="food" style="background-image: url(images/pexels-rachel-claire-4577162.jpg);">
                         <div class="food-name" >
-                            <p class="name">Lorem Ipsum 5</p>
+                            <p class="name">Lorem Ipsum</p>
                             <div class="add">
                                 <img src="images/plus.svg" alt="add">
                             </div>
                         </div>
                     </div>
-                    <div class="food" id="foo" style="background-image: url(images/pexels-photo-6210933.jpeg);">
+                    <div class="food" style="background-image: url(images/pexels-valeria-boltneva-9957549.jpg);">
                         <div class="food-name" >
-                            <p class="name">Lorem Ipsum 6</p>
+                            <p class="name">Lorem Ipsum</p>
                             <div class="add">
                                 <img src="images/plus.svg" alt="add">
                             </div>
@@ -96,34 +95,12 @@
                     </div>
                 </div>
             </div>
-            <div class="arr2 arrow" id="arrow2">
+            <div class="arr2 arrow" id="arr2" onclick="buttondown()">
                 <img src="images/arrow-left.svg" alt="" >
             </div>
         </div>
     </section>
     
-    <script>
-        var sliderdiv = document.getElementById("slider-div");
-        var item = sliderdiv.children;
-        var up = document.getElementsById('arrow1');
-        var down = document.getElementsById('arrow2');
-        // function buttondown(){
-        //     sliderdiv.append(item[0]);
-        // }
-
-        // function buttonUp(){
-        //     sliderdiv.prepend(item[item.length - 1]);
-        // }
-
-        up.addEventListener("click", ()=>{
-            sliderdiv.append(item[0]);
-        })
-        down.addEventListener("click", ()=>{
-            sliderdiv.prepend(item[item.length - 1]);
-        })
-    </script>
-
-
             <!--Promo Section-->
     <section class="promo-section">
     <h1>Promos</h1>
