@@ -101,6 +101,27 @@
             </div>
         </div>
     </section>
+    
+    <script>
+        var sliderdiv = document.getElementById("slider-div");
+        var item = sliderdiv.children;
+        var up = document.getElementsById('arrow1');
+        var down = document.getElementsById('arrow2');
+        // function buttondown(){
+        //     sliderdiv.append(item[0]);
+        // }
+
+        // function buttonUp(){
+        //     sliderdiv.prepend(item[item.length - 1]);
+        // }
+
+        up.addEventListener("click", ()=>{
+            sliderdiv.append(item[0]);
+        })
+        down.addEventListener("click", ()=>{
+            sliderdiv.prepend(item[item.length - 1]);
+        })
+    </script>
 
 
             <!--Promo Section-->
@@ -234,26 +255,7 @@
             </div>
         </footer>
     </div>
-    <script>
-        var sliderdiv = document.getElementById("slider-div");
-        var item = sliderdiv.children;
-        var up = document.getElementsById('arrow1');
-        var down = document.getElementsById('arrow2');
-        // function buttondown(){
-        //     sliderdiv.append(item[0]);
-        // }
-
-        // function buttonUp(){
-        //     sliderdiv.prepend(item[item.length - 1]);
-        // }
-
-        up.addEventListener("click", ()=>{
-            sliderdiv.append(item[0]);
-        })
-        down.addEventListener("click", ()=>{
-            sliderdiv.prepend(item[item.length - 1]);
-        })
-    </script>
+    
     <script src="script.js"></script>
 
    
